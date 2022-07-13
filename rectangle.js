@@ -13,8 +13,8 @@ module.exports = (x,y,callback) =>{
             // callback() function here is a first parameter of the outer function 
             // callback() function has two functions passed inside 
             callback(null, {
-                    perimeter: (x, y) => (2*(x+y)),
-                    area: (x, y) => (x*y)
+                    perimeter: () => (2*(x+y)),
+                    area: () => (x*y)
                 }
                 // this {} is the anonymous object having two properties (perimeter and area) 
                 // key here is the same as the function, and value is the logic of the key
