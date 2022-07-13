@@ -16,7 +16,7 @@ module.exports = (x,y,callback) =>{
                     perimeter: (x, y) => (2*(x+y)),
                     area: (x, y) => (x*y)
                 }
-                // this {} is the object having two (key: value)s, 
+                // this {} is the anonymous object having two properties (perimeter and area) 
                 // key here is the same as the function, and value is the logic of the key
                 ),
             2000)

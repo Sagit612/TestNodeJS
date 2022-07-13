@@ -12,8 +12,9 @@ function solveRect(l,b) {
             console.log("The perimeter of the rectangle of dimensions l = "
                 + l + " and b = " + b + " is " + rectangle.perimeter());
         }
-        console.log("This statement after the call to rect()");
+        
     })
+    console.log("This statement is after the call to rect()");
 }
 
 solveRect(2,4);
